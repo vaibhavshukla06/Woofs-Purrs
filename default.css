@@ -1,22 +1,23 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background: #F4E7DB url(images/img01.gif) repeat-x;
-	font: normal small Georgia, "Times New Roman", Times, serif;
-	color: #A4896D;
+    background: #F4E7DB url(images/img01.gif) repeat-x;
+    font: normal small Georgia, "Times New Roman", Times, serif;
+    color: #A4896D;
 }
 
-.read-more-text{
-	display: none;
+.read-more-text {
+    display: none;
 }
 
-.read-more{
-	cursor: pointer;
-	color: rgb(180, 79, 3);
-	text-decoration: underline;
+.read-more {
+    cursor: pointer;
+    color: rgb(180, 79, 3);
+    text-decoration: underline;
 }
 
 h1, h2, h3 {
@@ -50,11 +51,7 @@ blockquote {
 	color: #C7894C;
 }
 
-ul {
-	margin-left: 3em;
-}
-
-ol {
+ul, ol {
 	margin-left: 3em;
 }
 
@@ -107,7 +104,7 @@ a:hover {
 }
 
 #logo h2 {
-	float: left;
+	float: center;
 	padding: .75em 0 0 .4em;
 	font-size: 1.4em;
 	font-style: italic;
@@ -120,19 +117,18 @@ a:hover {
 /* Content > Main */
 
 #main {
-	margin: 0 260px 0 20px;
+	margin: 20px 0;
 	padding: 15px;
 	background: #FFFFFF;
 	border: 5px solid #C7894C;
 }
 
 #extra {
-	height: 31px;
-	margin: 0 260px 0 20px;
-	background: url(images/img02.gif) repeat-x;
+	display: none;
 }
 
-/* Content > Sidebar */
+/* 
+Content > Sidebar 
 
 #sidebar {
 	float: right;
@@ -140,7 +136,7 @@ a:hover {
 	padding: 60px 20px 0 0;
 }
 
-/* Content > Sidebar > search */
+ Content > Sidebar > search 
 
 #search fieldset {
 	border: none;
@@ -169,7 +165,7 @@ a:hover {
   
 #search-form input[type="text"] {
 	color: #b85e0b;
-	width: 146px; /* Adjust width as needed */
+	width: 146px;     Adjust width as needed 
 	padding: 5px;
 	margin-right: 5px;
 	border: 1px solid #ccc;
@@ -189,7 +185,7 @@ a:hover {
 	background-color: #e27508;
 }  
 
-/* Content > Sidebar > Menu */
+ Content > Sidebar > Menu 
 
 #menu {
 	margin-bottom: 30px;
@@ -219,7 +215,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
-/* Content > Sidebar > Updates*/
+Content > Sidebar > Updates
 
 #updates ul {
 	margin: 0;
@@ -237,7 +233,7 @@ a:hover {
 	line-height: normal;
 }
 
-/* Content > Sidebar > Partners*/
+Content > Sidebar > Partners
 
 #partners .content {
 	padding: 10px 0;
@@ -253,7 +249,7 @@ a:hover {
 #partners li {
 	padding: 10px;
 	border-top: 1px solid #D1BC5C;
-}
+} */
 
 /* Footer */
 
